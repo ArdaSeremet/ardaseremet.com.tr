@@ -26,7 +26,6 @@ body {
     align-items: center;
     height: 100vh;
     width: 100%;
-
     nav {
         margin-bottom: 20px;
         display: flex;
@@ -94,6 +93,7 @@ body {
         margin-bottom: 30px;
         color: #ccc;
         font-style: italic;
+
         &.scroller-black {
             color: #333;
             img {
@@ -128,6 +128,9 @@ body {
             color: #FFF;
             border-radius: 10px 10px 0 0;
             width: 100%;
+            @media all and (max-width: 350px) {
+                font-size: 14px;
+            }
         }
 
         .module-body {
@@ -140,6 +143,9 @@ body {
             color: #FFF;
             border-radius: 0 0 10px 10px;
             width: 100%;
+            @media all and (max-width: 350px) {
+                font-size: 14px;
+            }
         }
     }
 }

@@ -123,6 +123,11 @@ body {
   border-radius: 10px 10px 0 0;
   width: 100%;
 }
+@media all and (max-width: 350px) {
+  .fp-container .module .module-head {
+    font-size: 14px;
+  }
+}
 .fp-container .module .module-body {
   display: flex;
   flex-direction: column;
@@ -133,6 +138,11 @@ body {
   color: #FFF;
   border-radius: 0 0 10px 10px;
   width: 100%;
+}
+@media all and (max-width: 350px) {
+  .fp-container .module .module-body {
+    font-size: 14px;
+  }
 }
 
 .bg-white {
